@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go get:*)",
+      "Bash(go build:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(npm create vite@latest frontend -- --template vue-ts)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(docker-compose logs:*)",
+      "Bash(findstr:*)",
+      "Bash(dir:*)",
+      "Bash(cat:*)",
+      "Bash(docker-compose build:*)"
+    ]
+  }
+}

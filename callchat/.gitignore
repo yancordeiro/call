@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+backend/server
+frontend/dist
+frontend/node_modules
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Go
+vendor/
